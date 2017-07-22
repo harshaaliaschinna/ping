@@ -1,0 +1,14 @@
+{
+    "name": "harshaaliaschinna/ping",
+    "description": "This package can be used for Messaging other users",
+    "type": "laravel-package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Harsha vardhan",
+            "email": "harshaaliaschinna@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
