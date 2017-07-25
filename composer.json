@@ -1,7 +1,7 @@
 {
     "name": "harshaaliaschinna/ping",
-    "description": "This package can be used for Messaging other users",
-    "type": "laravel-package",
+    "description": "Ping provides a simple and easy Messaging or Chat or Conversation system to your Laravel Framework.",
+    "keywords": ["laravel", "messaging", "message-system", "chat", "message"],
     "license": "MIT",
     "authors": [
         {
@@ -9,6 +9,17 @@
             "email": "harshaaliaschinna@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "5.*",
+        "laravel/laravel": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Harshaaliaschinna\\Ping\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
 }
