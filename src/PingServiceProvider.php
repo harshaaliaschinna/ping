@@ -35,7 +35,7 @@ class PingServiceProvider extends ServiceProvider
     public function register()
     {
         $this->bindings();
-        $this->aliases();
+        // $this->aliases();
     }
 
     /**
